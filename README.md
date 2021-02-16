@@ -216,7 +216,7 @@ You must make sure that both ids, for movie and celebrity are valid.
 
 |       Route        | HTTP Verb |          Description          | Parameters |
 |--------------------|-----------|-------------------------------|---|
-|`/celebrity/works`|GET|List all the movies a specific celebrity has starred in| id|
+|`/celebrities/works`|GET|List all the movies a specific celebrity has starred in| id|
 
 # That's it!
 
