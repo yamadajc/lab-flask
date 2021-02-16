@@ -159,7 +159,7 @@ Here are the routes we will be using:
 
 |       Route        | HTTP Verb |          Description          | Parameters |
 |--------------------|-----------|-------------------------------|---|
-| `/celebrities/edit` |    GET    | Show a form to edit a celebrity | Mandatory: id, Optional: name, occupation, catch_phrase
+| `/celebrities/edit` |    GET    | Edit a celebrity | Mandatory: id, Optional: name, occupation, catch_phrase
 
 
 ### Steps we will follow in this iteration:
@@ -199,9 +199,9 @@ The `movies` object should have:
 |--------------------|-----------|-------------------------------|---|
 |`/movies`|GET|List all the movies titles and `_id`||
 |`/movies/details`|GET|Show specific movie|id|
-|`/movies/new`|GET|Create a new movie|title,genre,plot|
+|`/movies/new`|GET|Create a new movie|title,year,genre,plot|
 |`/movies/delete`|GET|Delete a specific movie|id|
-| `/movies/edit` |    GET    | Show a form to edit a celebrity | Mandatory: id, Optional: name, occupation, catch_phrase
+| `/movies/edit` |    GET    | Edit a movie | Mandatory: id, Optional: title, year, genre, plot
 
 # Advanced
 |       Route        | HTTP Verb |          Description          | Parameters |
