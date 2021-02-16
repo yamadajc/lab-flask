@@ -145,7 +145,8 @@ Now that we have a list of celebrities, a celebrity details page, and a route to
 ### Steps we will follow in this iteration:
 
 1. Use the flask decorator to asign the route to a python function.
-2. In that function:
+2. You might need to write a new function on `mongoConnection.py`.
+3. In that function:
   - Check that a celebrity with the given id exists, return an error message if not.
   - Delete the celebrity with the given id from the database.
 
@@ -164,7 +165,8 @@ Here are the routes we will be using:
 ### Steps we will follow in this iteration:
 
 1. Use the flask decorator to asign the route to a python function.
-2. In the function:
+2. You might need to write a new function on `mongoConnection.py`.
+3. In the function:
     - Check that an `id` was passed on the request and that this `id` belongs to a valid celebrity. Return an error message if any of the conditions fails.
     - Check that at least one of the optional parameters was passed on the request.
     - Update the parameter with the new value.
